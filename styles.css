@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header-section{
+    border: 1px solid #edebeb;
+}
+.header-section .top-section{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    /* position: relative; */
+    padding-right: 20px;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+.logo img{
+    width: 90px;
+}
+.middle-top{
+    margin-left: 20px;
+}
+.search-bar{
+    position: relative;
+    margin-top: 25px;
+}
+.search{
+    width: 50em;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    padding-left: 50px;
+}
+.icons{
+    position: absolute;
+    top: 0;
+    display: flex;
+    left: 500px;
+    padding: 5px 10px;
+    
+}
+
+.voice{
+    margin-right: 15px;
+}
+.camera{
+    margin-right: 15px;
+}
+.google-search{
+    margin-right: 15px;
+}
+.right-top{
+    padding-left: 500px;
+    margin-top: 20px;
+}
+.settings{
+    margin-right: 20px;
+}
+.app{
+    margin-right: 20px;
+}
+.profile{
+    margin-right: 20px;  
+}
+.first-line{
+    display: flex;
+    
+}
+.lower-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 12em;
+}
+.all{
+    display: flex;
+    margin-right: 12px;
+    gap: 4px;
+}
+.news{
+    display: flex;
+    margin-right: 12px;
+    gap: 4px;
+}
+.images{
+    display: flex;
+    margin-right: 12px;
+    gap: 4px;
+}
+.videos{
+    display: flex;
+    margin-right: 12px;
+    gap: 4px;
+}
+.more{
+    display: flex;
+    margin-right: 12px;
+    gap: 4px;
+}
+.second-line{
+    color: grey;
+    margin-top: 20px;
+}
+.third-line{
+    display: flex;
+    margin-top: 20px;
+}
+.header-img img{
+    width: 50px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 10px
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.name {
+    font-size: 30px;
+    font-weight: 500;
+}
+.buttons{
+    display: flex;
+    gap: 4px;
+}
+.buttons-overview{
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: rgb(224, 223, 223);
+    height: 40px;
+    width: 7em;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.buttons-news{
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: rgb(224, 223, 223);
+    height: 40px;
+    width: 5em;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.buttons-stats{
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: rgb(224, 223, 223);
+    height: 40px;
+    width: 5em;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.buttons-videos{
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: rgb(224, 223, 223);
+    height: 40px;
+    width: 5em;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 12em;
+    width: 60%;
+}
+.image-1{
+    border-radius: 10px 0 0 10px;
+}
+.image-4{
+    border-radius: 0 10px 10px 0;
+}
+.title{
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.news-about{
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(83, 82, 82);
+}
+.news-and-image{
+    display: flex;
+    margin-top: 13px;
+    border-top: 1px solid #ccc;
+}
+.first-news-and-image{
+    margin-top: 10px;
+    padding-right: 11px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;;
+}
+.psg-news{
+    border-radius: 10px;
+}
+.psg-logo{
+    width: 8em;
+    margin-top: 5px;
+}
