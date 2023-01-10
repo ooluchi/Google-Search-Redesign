@@ -320,8 +320,31 @@ a:hover {
     margin-top: 15px;
     padding-right: 13em;
     padding-left: 20px;
-    width: 40%;
+    width: 39%;
   }
   .right-side .grey{
-    color: grey;
+    color: rgb(91, 90, 90);
+  }
+  .about-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .summary{
+    margin-top: 20px;
+    line-height: 1.3em;
+  }
+  .born{
+    margin-top: 15px;
+  }
+  .height{
+    margin-top: 10px;
+  }
+  .spouse{
+    margin-top: 10px;
+  }
+  .teams{
+    margin-top: 10px;
+  }
+  .salary{
+    margin-top: 10px;
   }
