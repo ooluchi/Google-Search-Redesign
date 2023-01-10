@@ -167,12 +167,16 @@
     margin: auto;
     padding: 10px;
 }
+.body-section{
+    display: flex;
+}
 .left-side{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
     padding-left: 12em;
     width: 60%;
+    border-right: 1px solid #ccc;
 }
 .image-1{
     border-radius: 10px 0 0 10px;
@@ -194,13 +198,15 @@
     display: flex;
     margin-top: 13px;
     border-top: 1px solid #ccc;
+    width: 200px;
 }
 .first-news-and-image{
     margin-top: 10px;
-    padding-right: 11px;
+    
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid #ccc;;
+    border-right: 1px solid #ccc;
 }
 .psg-news{
     border-radius: 10px;
@@ -209,3 +215,113 @@
     width: 8em;
     margin-top: 5px;
 }
+.news-and-image a{
+    color: #1a0dab;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+a:hover {
+    text-decoration: underline;
+  }
+.second-news-and-image{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+    margin-top: 10px;
+    
+}
+.second-news-and-image-1{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    
+}
+.second-news-and-image-1-left{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.second-news-and-image-1-left .football-espana-logo{
+    width: 7em;
+}
+.messi{
+    border-radius: 10px;
+}
+.second-news-and-image-2{
+    display: flex;
+    margin-top: 10px;
+}
+.second-news-and-image-2-left{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.second-news-and-image-2-right img{
+    width: 92px;
+    height: 92px;
+}
+.news-about-CR{
+    padding-top: 20px;
+}
+.time{
+    color: grey
+}
+.news-about-CR a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover {
+    text-decoration: underline;
+  }
+  .cr-messi-news-and-img{
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    width: 200px;
+  }
+  .cr-messi-news-and-img a{
+    text-decoration: none;
+    color: #1a0dab;
+  }
+  .cr-messi-news-and-img a:hover {
+    text-decoration: underline;
+  }
+  .first-cr-messi-news-and-img{
+    display: flex;
+    margin-top: 20px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    
+  }
+  .first-cr-messi-news-and-img-left{
+    width: 210px;
+  }
+  .first-cr-messi-news-and-img-right img{
+    border-radius: 10px;
+    padding-left: 5px;
+  }
+  .second-cr-messi-news-and-img{
+    display: flex;
+    margin-top: 20px;
+  }
+  .second-cr-messi-news-and-img-left{
+    padding-left: 20px;
+  }
+  .second-cr-messi-news-and-img-right img{
+    width: 105px;
+    margin-left: 50px;
+    padding-left: 10px;
+  }
+  .right-side{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-right: 13em;
+    padding-left: 20px;
+    width: 40%;
+  }
+  .right-side .grey{
+    color: grey;
+  }
